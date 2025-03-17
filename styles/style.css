@@ -83,6 +83,10 @@ header {
   justify-content: flex-start;
 }
 
+.navbar img{
+  visibility: hidden;
+}
+
 .navbar li {
   width: 130px;
   height: 40px;
@@ -200,7 +204,7 @@ header {
   }
 
   .navbar img{
-    visibility: hidden;
+    display: none;
   }
 
   .navbar li {
@@ -254,7 +258,7 @@ header {
   }
 
   .navbar img{
-    visibility: hidden;
+    display: none;
   }
   
   .main-article {
@@ -266,7 +270,11 @@ header {
 
 @media (max-width: 480px){
   .navbar .li {
-    visibility: hidden;
+    display: none;
+  }
+
+  .navbar img{
+    display: block;
   }
 
 }
